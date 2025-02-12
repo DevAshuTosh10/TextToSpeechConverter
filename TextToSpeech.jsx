@@ -23,7 +23,6 @@ const TextToSpeech = ({ text }) => {
 
   const handlePlay = () => {
     const synth = window.speechSynthesis;
-
     if (isPaused) {
       synth.resume();
     } else {
